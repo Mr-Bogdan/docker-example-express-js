@@ -1,5 +1,3 @@
-﻿#Docker Demo für Express.js Server:
-
 ## Schritte:
 
 ### (0. Docker installieren) 
