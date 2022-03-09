@@ -6,14 +6,15 @@
 ### 1. Docker Image aus dockerfile erstellen
 `docker build -t students-app:1 .`
 
-### 2. Docker Image aus dockerfile erstellen
+### 2. Docker Container aus Image erstellen und starten
 `docker run -d --name students-app -p 3000:3000 students-app:1`
+<br/><br/>
 
-### 3. Docker Image aus dockerfile erstellen
-`docker stop students-app && docker rm students-app`
-
-### 4. Shell im Workingdirectory des Containers öffnen 
+#### 2.1 Shell im Working-directory des Containers öffnen
 `docker exec -it students-app sh`
 
-### 5. Dateien im Verzeichnis auflisten
+#### 2.2. Dateien im Verzeichnis auflisten
 `ls`
+<br/><br/>
+### 3. Docker Container stoppen und löschen
+`docker stop students-app && docker rm students-app`
