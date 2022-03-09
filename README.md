@@ -7,7 +7,7 @@
 `docker build -t students-app:1 .`
 
 ### 2. Docker Container aus Image erstellen und starten
-`docker run -d --name students-app -p 3000:80 students-app:1`
+`docker run -d --name students-app -p 3000:3000 students-app:1`
 <br/><br/>
 
 #### 2.1 Shell im Working-directory des Containers öffnen
