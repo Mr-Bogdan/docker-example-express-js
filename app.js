@@ -3,16 +3,16 @@ const app = express()
 const port = 3000
 
 app.get('/', (req, res) => {
-    res.send('Flexing like a BOSS!')
+    res.send('Test message')
 })
 
 app.get('/students', (req, res) => {
     res.send([
         {
-            name: "Christian Scholz", age: 20, class: "FIA95"
+            name: "Bohdan Martyniv", age: 21, class: "7"
         },
         {
-            name: "Jason Rösgen", age: 20, class: "FIA95"
+            name: "Josephina Jackson", age: 34, class: "3"
         }]);
 })
 
