@@ -3,7 +3,7 @@ const app = express()
 const port = 3000
 
 app.get('/', (req, res) => {
-    res.send('Test to Stage')
+    res.send('Test to prod')
 })
 
 app.get('/students', (req, res) => {
